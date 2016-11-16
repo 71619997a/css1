@@ -1,26 +1,25 @@
 body {
-    color: black;
     font-size: 1.5em;
-    background: orange;
-    text-shadow: 2px 2px #50FFFF
+    background: black;
+    text-shadow: 2px 2px orange;
 }
 
 h1 {
     color: red;
-    font-family: "Times New Roman", Times, Serif;
+    letter-spacing: 1em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 h3 {
     color: red;
-    font-size: 0.5em;
+    font-size: 5em;
 }
 
 a {
     color: yellow;
-    text-shadow: 3px 3px #505050;
 }
 
 p {
     color: red;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: fantasy;
 }
