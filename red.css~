@@ -1,0 +1,17 @@
+body {
+    color: red;
+    font-size: 1.5em;
+    background: green;
+}
+
+h1 {
+    font-family: Georgia;
+}
+
+h3 {
+    font-size: 0.5em;
+}
+
+a {
+    color: blue;
+    

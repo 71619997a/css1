@@ -1,0 +1,22 @@
+body {
+    color: red;
+    font-size: 1.5em;
+    background: green;
+}
+
+h1 {
+    font-family: "Times New Roman", Times, Serif;
+}
+
+h3 {
+    font-size: 0.5em;
+}
+
+a {
+    color: blue;
+    text-shadow: 3px 3px #505050;
+}
+
+p {
+    font-family: "Comic Sans MS", Times, sans-serif;
+}

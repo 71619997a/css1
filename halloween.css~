@@ -1,0 +1,23 @@
+body {
+    color: black;
+    font-size: 1.5em;
+    background: orange;
+}
+
+h1 {
+color: red;
+    font-family: "Times New Roman", Times, Serif;
+}
+
+h3 {
+    font-size: 0.5em;
+}
+
+a {
+    color: yellow;
+    text-shadow: 3px 3px #505050;
+}
+
+p {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
