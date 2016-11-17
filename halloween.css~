@@ -22,7 +22,6 @@ a {
 p {
     color: red;
     font-family: fantasy;
-    background: linear-gradient(blue, red, blue, black, blue, cyan, green, purple, white);
 }
 
 .extreme {
