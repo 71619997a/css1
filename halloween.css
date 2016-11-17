@@ -1,37 +1,70 @@
 body {
     font-size: 1.5em;
-    background: black;
+    background: radial-gradient(#0a25c6, #f97898, #ae7f6f, #8c7a8e, #dc3f4f, #779d00, #49d471, #d407c8, #56255a, #e45f1c, #0073f3, #9b63a2, #18b90c, #0b8470, #3616c7, #f4e0fd, #49608d, #5e6e2d, #a1ceda, #8ff8d2, #00e01d, #c16158, #aca065, #5e0fc8, #afeb58, #981277, #9e46bb, #491607, #2fe772, #a22d1c, #b045b8, #d8237e, #f22ade, #182ef3, #fca4a2, #3ea919, #4282d8, #c3a7ee, #0f8a9c, #bb2ad3);
     text-shadow: 2px 2px orange;
 }
 
 h1 {
     color: red;
     letter-spacing: 1em;
+    background: radial-gradient(#6ae913, #c7ec04, #cb0988, #f1ba84, #01e6c9, #d288e5, #9fd6a6, #d925ee, #ecb3cf, #63cc87, #5e3be4, #46d41e, #a0e50d, #6df797, #a8fc11);
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 h3 {
+    background: linear-gradient(#6b19ad, #56fb88, #9c4d03, #fe8a25, #b2a62a, #11ad00, #e5d256, #6c8dcb, #c001b4, #3ff5a0);
     color: red;
     font-size: 5em;
 }
 
 a {
+    background: linear-gradient(#11f7b0, #a4af31, #e7b6aa, #c47cca, #f1068a, #7e7cf4, #40a6e0);
     color: yellow;
 }
 
 p {
     color: red;
     font-family: fantasy;
-    background: linear-gradient(blue, red, blue, black, blue, cyan, green, purple, white);
+    background: radial-gradient(blue, red, blue, black, blue, cyan, green, purple, white);
+}
+
+div:before {
+    content: url(http://cdn.quotesgram.com/small/44/77/1550047782-smiley-emoji.png);
+}
+
+div {
+    transform: matrix3d(    
+0.8024253729050382, -0.009392939147717837,  0,  -0.0005738603625865593,
+0,  1.0167914871065367, 0,  0.00009762492503800399,
+0,  0,  1,  0,
+0,  0,  0,  1
+    );
+}
+
+div:after {
+    content: url(http://cdn.quotesgram.com/small/44/77/1550047782-smiley-emoji.png);
 }
 
 .extreme {
-    background-color: #50FFFF;
+    background: red;
     writing-mode: vertical-lr;
 }
 
 #head1 {
-    background: linear-gradient(black, white, blue, yellow, purple, cyan, green, blue, red);
+    writing-mode: sideways-rl;
 }
 
-		
+.navzone:before {
+    content: "get ready for big navigation";
+}
+
+#tehlulz {
+    color: violet;
+}
+
+.content {
+    border: dotted blue;
+}
+.prose {
+    border: dashed orange;
+}

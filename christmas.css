@@ -20,3 +20,40 @@ a {
 p {
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
+
+div {
+    border: solid white;
+    border-width: 10px 10px;
+}
+
+.extreme {
+    border: dashed red;
+    border-width: 10px 10px;
+}
+
+#head1 {
+    border: dotted purple;
+    border-width: 5px 5px;
+}
+
+.navzone {
+    border: solid blue;
+    border-width: 10px 20px;
+}
+
+#tehlulz:before {
+    content: "this one is a real lul " url(http://i.imgur.com/Divi9yo.png);
+}
+
+.content {
+    border: dashed yellow;
+    border-width: 5px 10px;
+}
+
+.prose {
+    border: solid orange;
+    border-width: 5px 5px;
+}
+.prose:after {
+    content: "it's been real";
+}
