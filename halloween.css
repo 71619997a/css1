@@ -23,23 +23,31 @@ a {
 }
 
 p {
-    color: red;
+    background: red;
     font-family: fantasy;
+}
+
+p:hover {
     background: radial-gradient(blue, red, blue, black, blue, cyan, green, purple, white);
+    
+    transition: background 5s;
 }
 
 div:before {
     content: url(http://cdn.quotesgram.com/small/44/77/1550047782-smiley-emoji.png);
 }
 
-div {
+div:active {
     transform: matrix3d(    
-0.8024253729050382, -0.009392939147717837,  0,  -0.0005738603625865593,
-0,  1.0167914871065367, 0,  0.00009762492503800399,
-0,  0,  1,  0,
-0,  0,  0,  1
+2.788253, -0.410539, 0, -0.005622, 
+                    0.786377, -0.841649, 0, 0.004317, 
+                    0, 0, 1, 0, 
+                    348, 140, 0, 1.7
     );
+    transition: transform 5s;   
 }
+
+
 
 div:after {
     content: url(http://cdn.quotesgram.com/small/44/77/1550047782-smiley-emoji.png);
