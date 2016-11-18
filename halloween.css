@@ -33,18 +33,28 @@ p:hover {
     transition: background 5s;
 }
 
+@keyframes trans {
+    from {  transform: matrix3d(0.430076, -0.859603, 0, -0.003896, 
+                    1.494854, 1.332074, 0, 0.001898, 
+                    0, 0, 1, 0, 
+                    98, 100, 0, 1);
+	 }
+    to { transform: matrix3d(2.788253, -0.410539, 0, -0.005622, 
+                    0.786377, -0.841649, 0, 0.004317, 
+                    0, 0, 1, 0, 
+                    90, 140, 0, 1.7);
+       }
+}
+
 div:before {
     content: url(http://cdn.quotesgram.com/small/44/77/1550047782-smiley-emoji.png);
 }
 
-div:active {
-    transform: matrix3d(    
-2.788253, -0.410539, 0, -0.005622, 
-                    0.786377, -0.841649, 0, 0.004317, 
-                    0, 0, 1, 0, 
-                    348, 140, 0, 1.7
-    );
-    transition: transform 5s;   
+div{
+    animation-name: trans;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
 }
 
 
