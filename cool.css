@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(to right, #6060BB, #6090EE);
+}
+
+.starwars {
+    transform: matrix3d(0.333466, -0.011643, 0, -0.000058, 
+                    -0.884601, -0.087275, 0, -0.003738, 
+                    0, 0, 1, 0, 
+                    154.567132, 69.261477, 0, 1);
+    transform-origin: -185px -98px 0px;
+    width: 120px;
+    height: 120px;
+    background: black;
+    color: yellow;
+}
+
+.aesthetic {
+    filter: blur(4px) contrast(140%) hue-rotate(35deg) saturate(150%);
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    left: 50px;
+    transition: left 2s;
+}
+
+.box:active {
+    left: 800px;
+}
+
+.box.bouncy {
+    transition-timing-function: cubic-bezier(.36,-0.78,.26,1.21);
+}
+
+.box.steppy {
+    transition-timing-function: steps(10, end);
+}
